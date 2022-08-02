@@ -29,9 +29,9 @@ const App: React.FC = () => {
   return (
     <Radio.Group onChange={onChange} value={value}>
       <Space direction="vertical">
-        <Radio value={1}>Option A</Radio>
-        <Radio value={2}>Option B</Radio>
-        <Radio value={3}>Option C</Radio>
+        <Radio value={1}>객관식</Radio>
+        <Radio value={2}>소문항이 있는 객관식</Radio>
+        <Radio value={3}>
         <Radio value={4}>
           More...
           {value === 4 ? <Input style={{ width: 100, marginLeft: 10 }} /> : null}
